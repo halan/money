@@ -56,9 +56,9 @@ class String
   # @example
   #   "USD".to_currency #=> #<Money::Currency id: usd>
   #
-  def to_currency
-    Money::Currency.new(self)
-  end
+  #def to_currency
+  #  Money::Currency.new(self)
+  #end
 
 end
 
